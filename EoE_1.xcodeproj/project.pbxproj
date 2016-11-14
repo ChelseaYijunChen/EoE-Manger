@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A40BA36E1C0DDB16008AF919 /* PEESSScroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40BA36D1C0DDB16008AF919 /* PEESSScroViewController.swift */; };
+		A40BA3701C0DE6D0008AF919 /* PEESS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40BA36F1C0DE6D0008AF919 /* PEESS.swift */; };
+		A418BBA61BF69960009B9976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418BBA51BF69960009B9976 /* AppDelegate.swift */; };
+		A418BBA81BF69960009B9976 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418BBA71BF69960009B9976 /* ViewController.swift */; };
+		A418BBAB1BF69960009B9976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A418BBA91BF69960009B9976 /* Main.storyboard */; };
+		A418BBAD1BF69960009B9976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A418BBAC1BF69960009B9976 /* Assets.xcassets */; };
+		A418BBB01BF69960009B9976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A418BBAE1BF69960009B9976 /* LaunchScreen.storyboard */; };
+		A418BBBB1BF69960009B9976 /* EoE_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418BBBA1BF69960009B9976 /* EoE_1Tests.swift */; };
+		A418BBC61BF69960009B9976 /* EoE_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418BBC51BF69960009B9976 /* EoE_1UITests.swift */; };
+		A418E0E51C0B4FD4000D78B8 /* PedsQLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418E0E41C0B4FD4000D78B8 /* PedsQLViewController.swift */; };
+		A418E0E71C0B5C2C000D78B8 /* FoodAllergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418E0E61C0B5C2C000D78B8 /* FoodAllergyViewController.swift */; };
+		A418E0E91C0B5E32000D78B8 /* FeedingTubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418E0E81C0B5E32000D78B8 /* FeedingTubeViewController.swift */; };
+		A41D2EE71C0DF7720002907E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A41D2EE61C0DF7720002907E /* libsqlite3.0.tbd */; };
+		A41D2EF91C0DF92B0002907E /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A41D2EEF1C0DF92B0002907E /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A41D2EFA1C0DF92B0002907E /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A41D2EF11C0DF92B0002907E /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A41D2EFB1C0DF92B0002907E /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A41D2EF31C0DF92B0002907E /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A41D2EFC1C0DF92B0002907E /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A41D2EF51C0DF92B0002907E /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A41D2EFD1C0DF92B0002907E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A41D2EF81C0DF92B0002907E /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A42E37431C03DF7B00041069 /* infoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E37421C03DF7B00041069 /* infoPageViewController.swift */; };
+		A43DF5AC1BF8E8FB00D9E8AE /* addPartnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43DF5AB1BF8E8FB00D9E8AE /* addPartnerViewController.swift */; };
+		A44205EA1C0E998E00DA18C4 /* sixFoodSubChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44205E91C0E998E00DA18C4 /* sixFoodSubChooseViewController.swift */; };
+		A44205EC1C0E9D0C00DA18C4 /* testFoodSubChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44205EB1C0E9D0C00DA18C4 /* testFoodSubChooseViewController.swift */; };
+		A44205EE1C0EA10900DA18C4 /* foodTrialSubChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44205ED1C0EA10900DA18C4 /* foodTrialSubChooseViewController.swift */; };
+		A44581241C02BBA80009087E /* motherEducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44581231C02BBA80009087E /* motherEducationViewController.swift */; };
+		A44581261C02BC0C0009087E /* motherEductionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44581251C02BC0C0009087E /* motherEductionTableViewCell.swift */; };
+		A44581281C02C3430009087E /* fatherEducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44581271C02C3430009087E /* fatherEducationViewController.swift */; };
+		A445812A1C02C3840009087E /* fatherEducationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44581291C02C3840009087E /* fatherEducationTableViewCell.swift */; };
+		A445812D1C02CAA60009087E /* userSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A445812C1C02CAA60009087E /* userSurveyViewController.swift */; };
+		A44909AF1C1154D500A9A5E0 /* exDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44909AE1C1154D500A9A5E0 /* exDBManager.swift */; };
+		A44909B41C11729C00A9A5E0 /* eosinophil image.png in Resources */ = {isa = PBXBuildFile; fileRef = A44909B31C11729C00A9A5E0 /* eosinophil image.png */; };
+		A44909B61C11770700A9A5E0 /* clemson_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A44909B51C11770700A9A5E0 /* clemson_bg.jpg */; };
+		A44CF3831C0360DD005EB8EE /* PedsQLData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44CF3821C0360DD005EB8EE /* PedsQLData.swift */; };
+		A44CF3861C036C9B005EB8EE /* foodDiaryHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44CF3851C036C9B005EB8EE /* foodDiaryHistoryViewController.swift */; };
+		A45303191C14E443008F2EE7 /* EoE_2.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A45303181C14E443008F2EE7 /* EoE_2.sqlite */; };
+		A4605D791C14CB2700237635 /* welcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4605D781C14CB2700237635 /* welcomeViewController.swift */; };
+		A472F42D1BFFB6C2000D6420 /* PEESSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A472F42C1BFFB6C2000D6420 /* PEESSData.swift */; };
+		A47CAB761C0A201900A384B1 /* PedsQLCell_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CAB751C0A201900A384B1 /* PedsQLCell_3.swift */; };
+		A48706621C100EFC00B008B2 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48706611C100EFC00B008B2 /* Util.swift */; };
+		A48706641C100F5A00B008B2 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48706631C100F5A00B008B2 /* DBManager.swift */; };
+		A4A8DB851C0AB31D00AA658F /* FoodDiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A8DB841C0AB31D00AA658F /* FoodDiary.swift */; };
+		A4A8DB881C0AB4CD00AA658F /* PedsQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A8DB871C0AB4CD00AA658F /* PedsQL.swift */; };
+		A4A9BD371C0E409D00D76421 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9BD361C0E409D00D76421 /* UserInfo.swift */; };
+		A4A9BD391C0E41A100D76421 /* userSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9BD381C0E41A100D76421 /* userSurvey.swift */; };
+		A4A9BD3D1C0E42E600D76421 /* foodEliminationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9BD3C1C0E42E600D76421 /* foodEliminationViewController.swift */; };
+		A4A9BD3F1C0E436900D76421 /* ExclElementalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9BD3E1C0E436900D76421 /* ExclElementalViewController.swift */; };
+		A4A9BD411C0E437F00D76421 /* foodTrialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9BD401C0E437F00D76421 /* foodTrialViewController.swift */; };
+		A4A9BD431C0E43C300D76421 /* foodTrialChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9BD421C0E43C300D76421 /* foodTrialChooseViewController.swift */; };
+		A4A9BD451C0E43EF00D76421 /* dietBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9BD441C0E43EF00D76421 /* dietBaseViewController.swift */; };
+		A4A9BD471C0E440D00D76421 /* sixFoodChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9BD461C0E440D00D76421 /* sixFoodChooseViewController.swift */; };
+		A4A9BD491C0E442900D76421 /* testFoodChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9BD481C0E442900D76421 /* testFoodChooseViewController.swift */; };
+		A4ABDC6E1BFF75FA0098E48F /* PEESSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ABDC6D1BFF75FA0098E48F /* PEESSViewController.swift */; };
+		A4ABDC701BFF7D570098E48F /* PEESSTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ABDC6F1BFF7D570098E48F /* PEESSTableViewCell.swift */; };
+		A4B0BE661C08C241000EA2E0 /* PedsQLCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B0BE651C08C241000EA2E0 /* PedsQLCell.swift */; };
+		A4B0BE681C08CA8F000EA2E0 /* PedsQLCell_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B0BE671C08CA8F000EA2E0 /* PedsQLCell_2.swift */; };
+		A4B160C11C08BD5D004E7DA2 /* PedsQLtbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B160C01C08BD5D004E7DA2 /* PedsQLtbViewController.swift */; };
+		A4FBB22D1C011478009FE10A /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBB22C1C011478009FE10A /* UserInfoViewController.swift */; };
+		A4FBB22F1C011821009FE10A /* bDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBB22E1C011821009FE10A /* bDatePickerViewController.swift */; };
+		A4FBB2311C014ECF009FE10A /* raceChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBB2301C014ECF009FE10A /* raceChooseViewController.swift */; };
+		A4FBB2371C0153B5009FE10A /* raceListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBB2361C0153B5009FE10A /* raceListTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A418BBB71BF69960009B9976 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A418BB9A1BF69960009B9976 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A418BBA11BF69960009B9976;
+			remoteInfo = EoE_1;
+		};
+		A418BBC21BF69960009B9976 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A418BB9A1BF69960009B9976 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A418BBA11BF69960009B9976;
+			remoteInfo = EoE_1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A40BA36D1C0DDB16008AF919 /* PEESSScroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PEESSScroViewController.swift; sourceTree = "<group>"; };
+		A40BA36F1C0DE6D0008AF919 /* PEESS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PEESS.swift; sourceTree = "<group>"; };
+		A418BBA21BF69960009B9976 /* EoE_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EoE_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A418BBA51BF69960009B9976 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A418BBA71BF69960009B9976 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A418BBAA1BF69960009B9976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A418BBAC1BF69960009B9976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A418BBAF1BF69960009B9976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A418BBB11BF69960009B9976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A418BBB61BF69960009B9976 /* EoE_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EoE_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A418BBBA1BF69960009B9976 /* EoE_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EoE_1Tests.swift; sourceTree = "<group>"; };
+		A418BBBC1BF69960009B9976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A418BBC11BF69960009B9976 /* EoE_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EoE_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A418BBC51BF69960009B9976 /* EoE_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EoE_1UITests.swift; sourceTree = "<group>"; };
+		A418BBC71BF69960009B9976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A418E0E41C0B4FD4000D78B8 /* PedsQLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PedsQLViewController.swift; sourceTree = "<group>"; };
+		A418E0E61C0B5C2C000D78B8 /* FoodAllergyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodAllergyViewController.swift; sourceTree = "<group>"; };
+		A418E0E81C0B5E32000D78B8 /* FeedingTubeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedingTubeViewController.swift; sourceTree = "<group>"; };
+		A41D2EE61C0DF7720002907E /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		A41D2EEE1C0DF92B0002907E /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = fmdb/FMDatabase.h; sourceTree = SOURCE_ROOT; };
+		A41D2EEF1C0DF92B0002907E /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = fmdb/FMDatabase.m; sourceTree = SOURCE_ROOT; };
+		A41D2EF01C0DF92B0002907E /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = fmdb/FMDatabaseAdditions.h; sourceTree = SOURCE_ROOT; };
+		A41D2EF11C0DF92B0002907E /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = fmdb/FMDatabaseAdditions.m; sourceTree = SOURCE_ROOT; };
+		A41D2EF21C0DF92B0002907E /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = fmdb/FMDatabasePool.h; sourceTree = SOURCE_ROOT; };
+		A41D2EF31C0DF92B0002907E /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = fmdb/FMDatabasePool.m; sourceTree = SOURCE_ROOT; };
+		A41D2EF41C0DF92B0002907E /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = fmdb/FMDatabaseQueue.h; sourceTree = SOURCE_ROOT; };
+		A41D2EF51C0DF92B0002907E /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = fmdb/FMDatabaseQueue.m; sourceTree = SOURCE_ROOT; };
+		A41D2EF61C0DF92B0002907E /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = fmdb/FMDB.h; sourceTree = SOURCE_ROOT; };
+		A41D2EF71C0DF92B0002907E /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = fmdb/FMResultSet.h; sourceTree = SOURCE_ROOT; };
+		A41D2EF81C0DF92B0002907E /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = fmdb/FMResultSet.m; sourceTree = SOURCE_ROOT; };
+		A42E37421C03DF7B00041069 /* infoPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoPageViewController.swift; sourceTree = "<group>"; };
+		A43DF5AB1BF8E8FB00D9E8AE /* addPartnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addPartnerViewController.swift; sourceTree = "<group>"; };
+		A44205E91C0E998E00DA18C4 /* sixFoodSubChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sixFoodSubChooseViewController.swift; sourceTree = "<group>"; };
+		A44205EB1C0E9D0C00DA18C4 /* testFoodSubChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testFoodSubChooseViewController.swift; sourceTree = "<group>"; };
+		A44205ED1C0EA10900DA18C4 /* foodTrialSubChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodTrialSubChooseViewController.swift; sourceTree = "<group>"; };
+		A44581231C02BBA80009087E /* motherEducationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = motherEducationViewController.swift; sourceTree = "<group>"; };
+		A44581251C02BC0C0009087E /* motherEductionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = motherEductionTableViewCell.swift; sourceTree = "<group>"; };
+		A44581271C02C3430009087E /* fatherEducationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fatherEducationViewController.swift; sourceTree = "<group>"; };
+		A44581291C02C3840009087E /* fatherEducationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = fatherEducationTableViewCell.swift; path = ../fatherEducationTableViewCell.swift; sourceTree = "<group>"; };
+		A445812C1C02CAA60009087E /* userSurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userSurveyViewController.swift; sourceTree = "<group>"; };
+		A44909AE1C1154D500A9A5E0 /* exDBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = exDBManager.swift; sourceTree = "<group>"; };
+		A44909B31C11729C00A9A5E0 /* eosinophil image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eosinophil image.png"; sourceTree = "<group>"; };
+		A44909B51C11770700A9A5E0 /* clemson_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clemson_bg.jpg; sourceTree = "<group>"; };
+		A44CF3821C0360DD005EB8EE /* PedsQLData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PedsQLData.swift; sourceTree = "<group>"; };
+		A44CF3851C036C9B005EB8EE /* foodDiaryHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodDiaryHistoryViewController.swift; sourceTree = "<group>"; };
+		A45303181C14E443008F2EE7 /* EoE_2.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = EoE_2.sqlite; sourceTree = "<group>"; };
+		A4605D781C14CB2700237635 /* welcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcomeViewController.swift; sourceTree = "<group>"; };
+		A472F42C1BFFB6C2000D6420 /* PEESSData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PEESSData.swift; sourceTree = "<group>"; };
+		A47CAB751C0A201900A384B1 /* PedsQLCell_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PedsQLCell_3.swift; sourceTree = "<group>"; };
+		A48706611C100EFC00B008B2 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		A48706631C100F5A00B008B2 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		A4A8DB841C0AB31D00AA658F /* FoodDiary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodDiary.swift; sourceTree = "<group>"; };
+		A4A8DB871C0AB4CD00AA658F /* PedsQL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PedsQL.swift; sourceTree = "<group>"; };
+		A4A9BD361C0E409D00D76421 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		A4A9BD381C0E41A100D76421 /* userSurvey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userSurvey.swift; sourceTree = "<group>"; };
+		A4A9BD3C1C0E42E600D76421 /* foodEliminationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodEliminationViewController.swift; sourceTree = "<group>"; };
+		A4A9BD3E1C0E436900D76421 /* ExclElementalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExclElementalViewController.swift; sourceTree = "<group>"; };
+		A4A9BD401C0E437F00D76421 /* foodTrialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodTrialViewController.swift; sourceTree = "<group>"; };
+		A4A9BD421C0E43C300D76421 /* foodTrialChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodTrialChooseViewController.swift; sourceTree = "<group>"; };
+		A4A9BD441C0E43EF00D76421 /* dietBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dietBaseViewController.swift; sourceTree = "<group>"; };
+		A4A9BD461C0E440D00D76421 /* sixFoodChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sixFoodChooseViewController.swift; sourceTree = "<group>"; };
+		A4A9BD481C0E442900D76421 /* testFoodChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testFoodChooseViewController.swift; sourceTree = "<group>"; };
+		A4ABDC6D1BFF75FA0098E48F /* PEESSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PEESSViewController.swift; sourceTree = "<group>"; };
+		A4ABDC6F1BFF7D570098E48F /* PEESSTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PEESSTableViewCell.swift; sourceTree = "<group>"; };
+		A4B0BE651C08C241000EA2E0 /* PedsQLCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PedsQLCell.swift; sourceTree = "<group>"; };
+		A4B0BE671C08CA8F000EA2E0 /* PedsQLCell_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PedsQLCell_2.swift; sourceTree = "<group>"; };
+		A4B160C01C08BD5D004E7DA2 /* PedsQLtbViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PedsQLtbViewController.swift; sourceTree = "<group>"; };
+		A4FBB22C1C011478009FE10A /* UserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		A4FBB22E1C011821009FE10A /* bDatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bDatePickerViewController.swift; sourceTree = "<group>"; };
+		A4FBB2301C014ECF009FE10A /* raceChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = raceChooseViewController.swift; sourceTree = "<group>"; };
+		A4FBB2361C0153B5009FE10A /* raceListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = raceListTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A418BB9F1BF69960009B9976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41D2EE71C0DF7720002907E /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A418BBB31BF69960009B9976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A418BBBE1BF69960009B9976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A418BB991BF69960009B9976 = {
+			isa = PBXGroup;
+			children = (
+				A41D2EE61C0DF7720002907E /* libsqlite3.0.tbd */,
+				A418BBA41BF69960009B9976 /* EoE_1 */,
+				A418BBB91BF69960009B9976 /* EoE_1Tests */,
+				A418BBC41BF69960009B9976 /* EoE_1UITests */,
+				A418BBA31BF69960009B9976 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A418BBA31BF69960009B9976 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A418BBA21BF69960009B9976 /* EoE_1.app */,
+				A418BBB61BF69960009B9976 /* EoE_1Tests.xctest */,
+				A418BBC11BF69960009B9976 /* EoE_1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A418BBA41BF69960009B9976 /* EoE_1 */ = {
+			isa = PBXGroup;
+			children = (
+				A48706601C100ED900B008B2 /* DataBase */,
+				A44205E81C0E83D600DA18C4 /* trash */,
+				A41D2ED31C0DF6F30002907E /* FMDB */,
+				A418BBA51BF69960009B9976 /* AppDelegate.swift */,
+				A4A8DB831C0AB2E000AA658F /* Data */,
+				A4FBB2351C01535F009FE10A /* UserInfo */,
+				A4FBB2321C0152D8009FE10A /* FoodDiary */,
+				A4FBB2341C015337009FE10A /* PedsQL */,
+				A4FBB2331C01530E009FE10A /* PEESS */,
+				A445812B1C02CA720009087E /* UserSurvey */,
+				A418BBAC1BF69960009B9976 /* Assets.xcassets */,
+				A418BBA91BF69960009B9976 /* Main.storyboard */,
+				A44909B31C11729C00A9A5E0 /* eosinophil image.png */,
+				A44909B51C11770700A9A5E0 /* clemson_bg.jpg */,
+				A4605D781C14CB2700237635 /* welcomeViewController.swift */,
+				A42E37421C03DF7B00041069 /* infoPageViewController.swift */,
+				A418BBAE1BF69960009B9976 /* LaunchScreen.storyboard */,
+				A418BBB11BF69960009B9976 /* Info.plist */,
+			);
+			path = EoE_1;
+			sourceTree = "<group>";
+		};
+		A418BBB91BF69960009B9976 /* EoE_1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A418BBBA1BF69960009B9976 /* EoE_1Tests.swift */,
+				A418BBBC1BF69960009B9976 /* Info.plist */,
+			);
+			path = EoE_1Tests;
+			sourceTree = "<group>";
+		};
+		A418BBC41BF69960009B9976 /* EoE_1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A418BBC51BF69960009B9976 /* EoE_1UITests.swift */,
+				A418BBC71BF69960009B9976 /* Info.plist */,
+			);
+			path = EoE_1UITests;
+			sourceTree = "<group>";
+		};
+		A41D2ED31C0DF6F30002907E /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				A41D2EEE1C0DF92B0002907E /* FMDatabase.h */,
+				A41D2EEF1C0DF92B0002907E /* FMDatabase.m */,
+				A41D2EF01C0DF92B0002907E /* FMDatabaseAdditions.h */,
+				A41D2EF11C0DF92B0002907E /* FMDatabaseAdditions.m */,
+				A41D2EF21C0DF92B0002907E /* FMDatabasePool.h */,
+				A41D2EF31C0DF92B0002907E /* FMDatabasePool.m */,
+				A41D2EF41C0DF92B0002907E /* FMDatabaseQueue.h */,
+				A41D2EF51C0DF92B0002907E /* FMDatabaseQueue.m */,
+				A41D2EF61C0DF92B0002907E /* FMDB.h */,
+				A41D2EF71C0DF92B0002907E /* FMResultSet.h */,
+				A41D2EF81C0DF92B0002907E /* FMResultSet.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		A44205E81C0E83D600DA18C4 /* trash */ = {
+			isa = PBXGroup;
+			children = (
+				A4ABDC6D1BFF75FA0098E48F /* PEESSViewController.swift */,
+				A4ABDC6F1BFF7D570098E48F /* PEESSTableViewCell.swift */,
+				A4B160C01C08BD5D004E7DA2 /* PedsQLtbViewController.swift */,
+				A4B0BE651C08C241000EA2E0 /* PedsQLCell.swift */,
+				A4B0BE671C08CA8F000EA2E0 /* PedsQLCell_2.swift */,
+				A47CAB751C0A201900A384B1 /* PedsQLCell_3.swift */,
+			);
+			name = trash;
+			sourceTree = "<group>";
+		};
+		A445812B1C02CA720009087E /* UserSurvey */ = {
+			isa = PBXGroup;
+			children = (
+				A445812C1C02CAA60009087E /* userSurveyViewController.swift */,
+				A4A9BD3C1C0E42E600D76421 /* foodEliminationViewController.swift */,
+				A4A9BD3E1C0E436900D76421 /* ExclElementalViewController.swift */,
+				A4A9BD401C0E437F00D76421 /* foodTrialViewController.swift */,
+				A4A9BD421C0E43C300D76421 /* foodTrialChooseViewController.swift */,
+				A44205ED1C0EA10900DA18C4 /* foodTrialSubChooseViewController.swift */,
+				A4A9BD441C0E43EF00D76421 /* dietBaseViewController.swift */,
+				A4A9BD461C0E440D00D76421 /* sixFoodChooseViewController.swift */,
+				A44205E91C0E998E00DA18C4 /* sixFoodSubChooseViewController.swift */,
+				A4A9BD481C0E442900D76421 /* testFoodChooseViewController.swift */,
+				A44205EB1C0E9D0C00DA18C4 /* testFoodSubChooseViewController.swift */,
+			);
+			name = UserSurvey;
+			sourceTree = "<group>";
+		};
+		A48706601C100ED900B008B2 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				A45303181C14E443008F2EE7 /* EoE_2.sqlite */,
+				A48706611C100EFC00B008B2 /* Util.swift */,
+				A48706631C100F5A00B008B2 /* DBManager.swift */,
+				A44909AE1C1154D500A9A5E0 /* exDBManager.swift */,
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+		A4A8DB831C0AB2E000AA658F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A4A8DB841C0AB31D00AA658F /* FoodDiary.swift */,
+				A4A8DB871C0AB4CD00AA658F /* PedsQL.swift */,
+				A40BA36F1C0DE6D0008AF919 /* PEESS.swift */,
+				A4A9BD361C0E409D00D76421 /* UserInfo.swift */,
+				A4A9BD381C0E41A100D76421 /* userSurvey.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		A4FBB2321C0152D8009FE10A /* FoodDiary */ = {
+			isa = PBXGroup;
+			children = (
+				A418BBA71BF69960009B9976 /* ViewController.swift */,
+				A43DF5AB1BF8E8FB00D9E8AE /* addPartnerViewController.swift */,
+				A44CF3851C036C9B005EB8EE /* foodDiaryHistoryViewController.swift */,
+			);
+			name = FoodDiary;
+			sourceTree = "<group>";
+		};
+		A4FBB2331C01530E009FE10A /* PEESS */ = {
+			isa = PBXGroup;
+			children = (
+				A472F42C1BFFB6C2000D6420 /* PEESSData.swift */,
+				A40BA36D1C0DDB16008AF919 /* PEESSScroViewController.swift */,
+			);
+			name = PEESS;
+			sourceTree = "<group>";
+		};
+		A4FBB2341C015337009FE10A /* PedsQL */ = {
+			isa = PBXGroup;
+			children = (
+				A44CF3821C0360DD005EB8EE /* PedsQLData.swift */,
+				A418E0E41C0B4FD4000D78B8 /* PedsQLViewController.swift */,
+				A418E0E61C0B5C2C000D78B8 /* FoodAllergyViewController.swift */,
+				A418E0E81C0B5E32000D78B8 /* FeedingTubeViewController.swift */,
+			);
+			name = PedsQL;
+			sourceTree = "<group>";
+		};
+		A4FBB2351C01535F009FE10A /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				A4FBB22C1C011478009FE10A /* UserInfoViewController.swift */,
+				A4FBB22E1C011821009FE10A /* bDatePickerViewController.swift */,
+				A4FBB2301C014ECF009FE10A /* raceChooseViewController.swift */,
+				A4FBB2361C0153B5009FE10A /* raceListTableViewCell.swift */,
+				A44581231C02BBA80009087E /* motherEducationViewController.swift */,
+				A44581251C02BC0C0009087E /* motherEductionTableViewCell.swift */,
+				A44581271C02C3430009087E /* fatherEducationViewController.swift */,
+				A44581291C02C3840009087E /* fatherEducationTableViewCell.swift */,
+			);
+			name = UserInfo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A418BBA11BF69960009B9976 /* EoE_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A418BBCA1BF69960009B9976 /* Build configuration list for PBXNativeTarget "EoE_1" */;
+			buildPhases = (
+				A418BB9E1BF69960009B9976 /* Sources */,
+				A418BB9F1BF69960009B9976 /* Frameworks */,
+				A418BBA01BF69960009B9976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EoE_1;
+			productName = EoE_1;
+			productReference = A418BBA21BF69960009B9976 /* EoE_1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A418BBB51BF69960009B9976 /* EoE_1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A418BBCD1BF69960009B9976 /* Build configuration list for PBXNativeTarget "EoE_1Tests" */;
+			buildPhases = (
+				A418BBB21BF69960009B9976 /* Sources */,
+				A418BBB31BF69960009B9976 /* Frameworks */,
+				A418BBB41BF69960009B9976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A418BBB81BF69960009B9976 /* PBXTargetDependency */,
+			);
+			name = EoE_1Tests;
+			productName = EoE_1Tests;
+			productReference = A418BBB61BF69960009B9976 /* EoE_1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A418BBC01BF69960009B9976 /* EoE_1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A418BBD01BF69960009B9976 /* Build configuration list for PBXNativeTarget "EoE_1UITests" */;
+			buildPhases = (
+				A418BBBD1BF69960009B9976 /* Sources */,
+				A418BBBE1BF69960009B9976 /* Frameworks */,
+				A418BBBF1BF69960009B9976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A418BBC31BF69960009B9976 /* PBXTargetDependency */,
+			);
+			name = EoE_1UITests;
+			productName = EoE_1UITests;
+			productReference = A418BBC11BF69960009B9976 /* EoE_1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A418BB9A1BF69960009B9976 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = SUN;
+				TargetAttributes = {
+					A418BBA11BF69960009B9976 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = C8TWP29WC4;
+					};
+					A418BBB51BF69960009B9976 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = C8TWP29WC4;
+						TestTargetID = A418BBA11BF69960009B9976;
+					};
+					A418BBC01BF69960009B9976 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = C8TWP29WC4;
+						TestTargetID = A418BBA11BF69960009B9976;
+					};
+				};
+			};
+			buildConfigurationList = A418BB9D1BF69960009B9976 /* Build configuration list for PBXProject "EoE_1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A418BB991BF69960009B9976;
+			productRefGroup = A418BBA31BF69960009B9976 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A418BBA11BF69960009B9976 /* EoE_1 */,
+				A418BBB51BF69960009B9976 /* EoE_1Tests */,
+				A418BBC01BF69960009B9976 /* EoE_1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A418BBA01BF69960009B9976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44909B61C11770700A9A5E0 /* clemson_bg.jpg in Resources */,
+				A44909B41C11729C00A9A5E0 /* eosinophil image.png in Resources */,
+				A418BBB01BF69960009B9976 /* LaunchScreen.storyboard in Resources */,
+				A418BBAD1BF69960009B9976 /* Assets.xcassets in Resources */,
+				A45303191C14E443008F2EE7 /* EoE_2.sqlite in Resources */,
+				A418BBAB1BF69960009B9976 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A418BBB41BF69960009B9976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A418BBBF1BF69960009B9976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A418BB9E1BF69960009B9976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42E37431C03DF7B00041069 /* infoPageViewController.swift in Sources */,
+				A418E0E71C0B5C2C000D78B8 /* FoodAllergyViewController.swift in Sources */,
+				A4A9BD451C0E43EF00D76421 /* dietBaseViewController.swift in Sources */,
+				A4B160C11C08BD5D004E7DA2 /* PedsQLtbViewController.swift in Sources */,
+				A4A9BD3D1C0E42E600D76421 /* foodEliminationViewController.swift in Sources */,
+				A41D2EF91C0DF92B0002907E /* FMDatabase.m in Sources */,
+				A44909AF1C1154D500A9A5E0 /* exDBManager.swift in Sources */,
+				A418E0E91C0B5E32000D78B8 /* FeedingTubeViewController.swift in Sources */,
+				A4A9BD491C0E442900D76421 /* testFoodChooseViewController.swift in Sources */,
+				A41D2EFA1C0DF92B0002907E /* FMDatabaseAdditions.m in Sources */,
+				A4ABDC6E1BFF75FA0098E48F /* PEESSViewController.swift in Sources */,
+				A4A9BD411C0E437F00D76421 /* foodTrialViewController.swift in Sources */,
+				A445812A1C02C3840009087E /* fatherEducationTableViewCell.swift in Sources */,
+				A4605D791C14CB2700237635 /* welcomeViewController.swift in Sources */,
+				A4A9BD391C0E41A100D76421 /* userSurvey.swift in Sources */,
+				A4A9BD471C0E440D00D76421 /* sixFoodChooseViewController.swift in Sources */,
+				A41D2EFC1C0DF92B0002907E /* FMDatabaseQueue.m in Sources */,
+				A40BA36E1C0DDB16008AF919 /* PEESSScroViewController.swift in Sources */,
+				A418BBA81BF69960009B9976 /* ViewController.swift in Sources */,
+				A44205EA1C0E998E00DA18C4 /* sixFoodSubChooseViewController.swift in Sources */,
+				A44581261C02BC0C0009087E /* motherEductionTableViewCell.swift in Sources */,
+				A44581241C02BBA80009087E /* motherEducationViewController.swift in Sources */,
+				A47CAB761C0A201900A384B1 /* PedsQLCell_3.swift in Sources */,
+				A41D2EFB1C0DF92B0002907E /* FMDatabasePool.m in Sources */,
+				A4A9BD431C0E43C300D76421 /* foodTrialChooseViewController.swift in Sources */,
+				A43DF5AC1BF8E8FB00D9E8AE /* addPartnerViewController.swift in Sources */,
+				A4B0BE661C08C241000EA2E0 /* PedsQLCell.swift in Sources */,
+				A4FBB22F1C011821009FE10A /* bDatePickerViewController.swift in Sources */,
+				A472F42D1BFFB6C2000D6420 /* PEESSData.swift in Sources */,
+				A418BBA61BF69960009B9976 /* AppDelegate.swift in Sources */,
+				A4FBB2311C014ECF009FE10A /* raceChooseViewController.swift in Sources */,
+				A44581281C02C3430009087E /* fatherEducationViewController.swift in Sources */,
+				A44205EC1C0E9D0C00DA18C4 /* testFoodSubChooseViewController.swift in Sources */,
+				A4A8DB881C0AB4CD00AA658F /* PedsQL.swift in Sources */,
+				A44CF3861C036C9B005EB8EE /* foodDiaryHistoryViewController.swift in Sources */,
+				A44CF3831C0360DD005EB8EE /* PedsQLData.swift in Sources */,
+				A445812D1C02CAA60009087E /* userSurveyViewController.swift in Sources */,
+				A4A9BD3F1C0E436900D76421 /* ExclElementalViewController.swift in Sources */,
+				A4FBB2371C0153B5009FE10A /* raceListTableViewCell.swift in Sources */,
+				A4FBB22D1C011478009FE10A /* UserInfoViewController.swift in Sources */,
+				A4A8DB851C0AB31D00AA658F /* FoodDiary.swift in Sources */,
+				A48706621C100EFC00B008B2 /* Util.swift in Sources */,
+				A40BA3701C0DE6D0008AF919 /* PEESS.swift in Sources */,
+				A41D2EFD1C0DF92B0002907E /* FMResultSet.m in Sources */,
+				A4ABDC701BFF7D570098E48F /* PEESSTableViewCell.swift in Sources */,
+				A48706641C100F5A00B008B2 /* DBManager.swift in Sources */,
+				A418E0E51C0B4FD4000D78B8 /* PedsQLViewController.swift in Sources */,
+				A44205EE1C0EA10900DA18C4 /* foodTrialSubChooseViewController.swift in Sources */,
+				A4A9BD371C0E409D00D76421 /* UserInfo.swift in Sources */,
+				A4B0BE681C08CA8F000EA2E0 /* PedsQLCell_2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A418BBB21BF69960009B9976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A418BBBB1BF69960009B9976 /* EoE_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A418BBBD1BF69960009B9976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A418BBC61BF69960009B9976 /* EoE_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A418BBB81BF69960009B9976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A418BBA11BF69960009B9976 /* EoE_1 */;
+			targetProxy = A418BBB71BF69960009B9976 /* PBXContainerItemProxy */;
+		};
+		A418BBC31BF69960009B9976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A418BBA11BF69960009B9976 /* EoE_1 */;
+			targetProxy = A418BBC21BF69960009B9976 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A418BBA91BF69960009B9976 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A418BBAA1BF69960009B9976 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A418BBAE1BF69960009B9976 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A418BBAF1BF69960009B9976 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A418BBC81BF69960009B9976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A418BBC91BF69960009B9976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A418BBCB1BF69960009B9976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = EoE_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZHE.EoE-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EoE_1/EoE_1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A418BBCC1BF69960009B9976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = EoE_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZHE.EoE-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EoE_1/EoE_1-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		A418BBCE1BF69960009B9976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EoE_1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZHE.EoE-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EoE_1.app/EoE_1";
+			};
+			name = Debug;
+		};
+		A418BBCF1BF69960009B9976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EoE_1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZHE.EoE-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EoE_1.app/EoE_1";
+			};
+			name = Release;
+		};
+		A418BBD11BF69960009B9976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EoE_1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZHE.EoE-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EoE_1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A418BBD21BF69960009B9976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EoE_1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZHE.EoE-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EoE_1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A418BB9D1BF69960009B9976 /* Build configuration list for PBXProject "EoE_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A418BBC81BF69960009B9976 /* Debug */,
+				A418BBC91BF69960009B9976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A418BBCA1BF69960009B9976 /* Build configuration list for PBXNativeTarget "EoE_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A418BBCB1BF69960009B9976 /* Debug */,
+				A418BBCC1BF69960009B9976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A418BBCD1BF69960009B9976 /* Build configuration list for PBXNativeTarget "EoE_1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A418BBCE1BF69960009B9976 /* Debug */,
+				A418BBCF1BF69960009B9976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A418BBD01BF69960009B9976 /* Build configuration list for PBXNativeTarget "EoE_1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A418BBD11BF69960009B9976 /* Debug */,
+				A418BBD21BF69960009B9976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A418BB9A1BF69960009B9976 /* Project object */;
+}
